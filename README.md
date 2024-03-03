@@ -7,3 +7,9 @@ Learn Software development for free.
 
 ## Instruction
 The site includes multiple links on free resources on learning multiple software engineering languages and concepts.
+
+## Build
+Built using HTML and CSS.
+
+## License
+This project uses and APGL-3.0 license
