@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(28, 27, 34);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#textTitle {
+    font-size: 2.5em;
+    line-height: 1.25em;
+    width: 100%;
+    margin-top: 45px;
+    text-align: center;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:rgb(251, 251, 254);
+}
+
+#subTitle {
+    line-height: 1.25em;
+    width: 100%;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:rgba(251, 251, 254, 0.836);
+}
+
+hr {
+    color: rgb(156, 156, 156);
+    border-radius: 60px;
+    border-style: solid;
+    border-width: thin 10px thin 10px; 
+}
+
+#secondTitle {
+    font-size: 1.6em;
+    line-height: 1.25em;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(251, 251, 254);
+}
+
+.thirdTitle {
+    font-size: 2.0em;
+    line-height: 1.25em;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:rgb(251, 251, 254);
+}
+
+h4 {
+    font-size: 1.4em;
+    line-height: 1.25em;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:rgb(251, 251, 254);
+}
+a {
+    font-size: 1.0em;
+    line-height: 1.25em;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:rgb(185, 185, 185);
+}
+p {
+    font-size: 0.9em;
+    line-height: 1.25em;
+    width: 100%;
+    margin-left: 15px;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:rgb(251, 251, 254);
+}
+
+img {
+    width: 50px;
+}
+
+#express {
+    background-color: white;
+}
+
+#rust {
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin: 0xp;
+    }
+  }
+
+a:hover {
+
+    transition: color 0.2s linear;
+    color: white;
+}
+
+a:not(:hover) {
+    transition: color 0.4s linear;
+    color:rgb(185, 185, 185);
+}
+
+img:hover {
+    transition: width 0.6s ease-in-out;
+    width: 100px;
+}
+img:not(:hover) { 
+    transition: width 0.3s ease-in-out;
+    width: 50px;
+}
