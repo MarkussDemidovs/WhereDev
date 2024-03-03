@@ -1,5 +1,5 @@
-> [SITE](https://markussdemidovs.github.io/WhereDev/)
-
+> [Visit the site here!](https://markussdemidovs.github.io/WhereDev/)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,cpp,cs,c,postgres,py,r,rust,react)](https://skillicons.dev)
 
 # WhereDev
 Learn Software development for free.
