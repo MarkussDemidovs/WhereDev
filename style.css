@@ -1,7 +1,7 @@
 body {
     background-color: rgb(28, 27, 34);
-    margin-left: 25%;
-    margin-right: 25%;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 #textTitle {
@@ -39,6 +39,7 @@ hr {
 #secondTitle {
     font-size: 1.6em;
     line-height: 1.25em;
+    font-stretch: expanded;
     width: 100%;
     margin-top: 40px;
     text-align: center;
@@ -64,9 +65,17 @@ hr {
     color:rgb(251, 251, 254);
 }
 
+footer {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 0.8em;
+    
+}
 h4 {
     font-size: 1.4em;
     line-height: 1.25em;
+    margin-bottom: 6px;
+    margin-top: 6px;
     width: 100%;
     margin-top: 40px;
     text-align: center;
@@ -137,6 +146,6 @@ img:hover {
     width: 100px;
 }
 img:not(:hover) { 
-    transition: width 0.3s ease-in-out;
+    transition: width 0.5s ease-in-out;
     width: 50px;
 }
