@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/859324272a.js" crossorigin="anonymous"></script>
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -20,12 +21,19 @@
   gtag('config', 'G-5QDV8C2S7H');
 </script>
 
-<body>
-    <h1 id="textTitle">Where to learn development?</h1>
+<body style="color: white">
+    <h1 id="textTitle">Where to learn software development?</h1>
     <p id="subTitle">Free resources on becoming a software engineer.</p>
+    <center><a class="shareBtn buttonsInfo" onclick="copyShareButton()"><i class="fa-solid fa-share"></i>Copy URL and Spread the word!</a>
+    <a class="suggestionBtn buttonsInfo" href="./pages/suggest.html"><i class="fa-solid fa-plus"></i>Suggest</a>
+    <a class="suggestionBtn buttonsInfo" href="./pages/updates.html"><i class="fa-solid fa-circle-down"></i>Updates</a></center>
+
+    <p id="banner">Please - leave a suggestion and look at our "updates" page!</p>
     <br>
     <hr>
-    <h2 id="secondTitle">What do you want to learn exactly?</h2>
+    <main>
+    <h2 id="secondTitle">Topics</h2>
+    <h3 id="thirdTitle">Recommended resources</h3>
     <a href="https://www.theodinproject.com/">The Odin Project.</a>
     <p>This is a full-stack learning resource for web development. Very highly rated by the web-development community.</p>
     <a href="https://www.freecodecamp.org/learn">FreeCodeCamp</a>
@@ -53,6 +61,8 @@
       </h4>
     <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/">Freecodecamp - JavaScript Algorithms and Data Structures (Beta)</a>
     <p>Freecodecamp is a very good resource to learn front end web development, you also build projects using javascript, using modern / popular javascript concepts.</p>
+    <a href="https://javascript.info/">Javascript.Info</a>
+    <p>Javascript.info is an all in one resource from beginner to advanced, also teaching good patterns while learning Javascript!</p>
     <h4>React<br>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
       </h4>
@@ -92,9 +102,11 @@
 
       <h4>Javascript         <br><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
       </h4>
-      
+
       <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/">Freecodecamp - JavaScript Algorithms and Data Structures (Beta)</a>
       <p>Freecodecamp is a very good resource to learn front end web development, you also build projects using javascript, using modern / popular javascript concepts.</p>
+      <a href="https://javascript.info/">Javascript.Info</a>
+      <p>Javascript.info is an all in one resource from beginner to advanced, also teaching good patterns while learning Javascript!</p>
 
 
       <h4>C# <br> 
@@ -131,7 +143,7 @@
       </h4>
       <a href="https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8">The Rust Lang Book - Let's Get Rusty on Youtube.com</a>
       <p>Recommended by many people on reddit, following the Rust-developer famous official book about rust!</p>
-
+    </main>
 
       <footer>
         <hr>
@@ -142,6 +154,7 @@
         <center><a href='https://www.easybooking.eu/produkte/julia-hotelsoftware'>Hotelprogramm easybooking</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=631704f98bf54d4422a0bfadc2afc1d8807c92a6'></script></center>
       </footer>
 
+      <script src="./scripts/index.js"></script>
 
 </body>
 </html>
