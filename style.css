@@ -265,6 +265,8 @@ a#backBtn:active{
     border: #32016e 1px solid;
     background-color:#101013;
     border-radius: 12px;
+    margin-bottom: 30px;
+    padding: 12px;
 }
 
 .updateTitle {
