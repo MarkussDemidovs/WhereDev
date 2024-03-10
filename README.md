@@ -1,7 +1,7 @@
 # WhereDev
 [Visit the site here!](https://markussdemidovs.github.io/WhereDev/)
 
-[![You can learn:](https://skillicons.dev/icons?i=js,html,css,cpp,cs,c,postgres,py,r,rust,react)](https://skillicons.dev)
+[![You can learn:](https://skillicons.dev/icons?i=js,html,css,cpp,cs,c,postgres,py,r,rust,react,java,ts)](https://skillicons.dev)
 
 Learn Software development for free.
 
